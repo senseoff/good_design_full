@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+//= partials/_head.html
+<body>
+        //= partials/_header.html
+        <main>
+            <section class="section bg" id="page__header" style="background-image: url(img/bg.jpg);">
+                <div class="container d-flex align-items-center justify-content-center h-100 text-center">
+                    <h1 class="page__title">contact</h1>
+                </div>
+            </section>
+            <section class="section section--white" id="getintouch">
+                <div class="container text-center">
+                    <h2 class="contact__title">get in touch</h2>
+                    <p class="contact__text">Lorem ipsum dolor sit amet, dui ac bibendum fringilla, massa augue mattis enim, quis volutpat augue nisi vitae nibh. Proin nibh tortor, rutrum luctus euismod eu, rutrum eget nunc. Nam commodo tellus quis ante tempus quis auctor enim suscipit. Donec sit amet feugiat justo. Nulla vel nibh et erat consequat sollicitudin. Vivamus egestas erat ac arcu sagittis in tincidunt purus pharetra. Maecenas viverra suscipit arcu, ac adipiscing odio vehicula nec. Vestibulum non enim ac dui interdum tempus nam tortor odio.</p>
+                    <div class="row pt-5">
+                        <div class="col-lg-6 form">
+                            <form>
+                                <p class="form__text">Lorem ipsum dolor sit amet, consectetur <span class="form__star">*</span> sign amentu kurmanci.</p>
+                                <div class="form-group pb-3">
+                                    <label for="firstname">Name <span class="form__star">*</span></label>
+                                    <input type="text" class="form-control" id="fistname">
+                                </div>
+                                <div class="form-group pb-3">
+                                    <label for="email">E-mail address <span class="form__star">*</span></label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group pb-3">
+                                    <label for="message">Subject <span class="form__star">*</span></label>
+                                    <input type="text" class="form-control" id="subject">
+                                </div>
+                                <div class="form-group pb-3">
+                                    <label for="message">Message <span class="form__star">*</span></label>
+                                    <textarea class="form-control" id="message" rows="12"></textarea>
+                                </div>
+                                <div class="row capcha">
+                                        <div class="capcha__wrap"><img src="img/capcha.jpg" alt="#"></div>
+                                        <div class="form-group capcha__form">
+                                            <label for="capcha">Enter the code</label>
+                                            <input type="text" class="form-control" id="capcha">
+                                        </div>
+                                </div>
+                                <div class="row justify-content-end pt-3">
+                                    <a href="#" class="form__btn">Send</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-right text-left">
+                            <div class="contact__list mb-5">
+                                <img class="contact__icons" src="img/icons.png" alt="">
+                                <p><span>Office:</span> +1 (000) 123-4567<br>
+                                    <span>Mobil:</span> +1 (000) 123-4567</p>
+                                <p>Lorem ipsum dolar sit amet<br>
+                                    New York- United States</p>
+                                <p><a href="#">hakan.ertann@gmail.com</a><br><a href="#">www.hakan-ertan.com</a></p>
+                            </div>
+                            <div class="map mb-5" id="map">
+                                
+                            </div>
+                            <div class="socials">
+                                <h3 class="socials__title">FOLLOW US ON SOCIAL MEDIA</h3>
+                                <ul class="social__list">
+                                    <li class="social"><a href="#"><img src="img/twitter 2.png" alt="#"></a></li>
+                                    <li class="social"><a href="#"><img src="img/facebook.png" alt="#"></a></li>
+                                    <li class="social"><a href="#"><img src="img/youtube.png" alt="#"></a></li>
+                                    <li class="social"><a href="#"><img src="img/vimeo.png" alt="#"></a></li>
+                                    <li class="social"><a href="#"><img src="img/linkedin.png" alt="#"></a></li>
+                                    <li class="social"><a href="#"><img src="img/google +.png" alt="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        //= partials/_footer.html
+    </div>
+
+    //= partials/_sprite.html
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCub7pKRDZju62_aRtGlmMtl-T1LBthZL4&callback=initMap"
+    async defer></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
